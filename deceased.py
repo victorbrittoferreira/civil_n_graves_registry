@@ -2,7 +2,7 @@ import datetime
 class Deceased:
 
 
-    def __init__(self, name, age ,  ) -> None:
+    def __init__(self, name, age , buried = None ) -> None:
 
         self.name = name
 #        self.father_name = father_name
@@ -16,6 +16,7 @@ class Deceased:
 #        self.place_of_death = place_of_death
 #        self.cause_of_death = cause_of_death 
 #        self.burial_date = burial_date
+        self.buried = buried
         self.date_of_cemetery_registration = datetime.datetime.today()
 
 #        self.registry_office = registry_office
@@ -24,7 +25,7 @@ class Deceased:
     def setNome(self, nome):
         self.nome = nome
 
-    def setAge(self, age):' '
+    def setAge(self, age):
         self.age = age
 
     def dead_status_update(self, updating):
@@ -36,9 +37,12 @@ class Deceased:
         for update in self.dead_status:
             print(update)
         
-    
     def getName(self):
         return self.name
 
     def getAge(self): 
         return self.age 
+
+#deceased_test = Deceased("victor",30)
+
+#print(deceased_test.buried)
