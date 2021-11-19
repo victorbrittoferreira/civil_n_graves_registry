@@ -24,7 +24,7 @@ class Deceased:
     def setNome(self, nome):
         self.nome = nome
 
-    def setAge(self, age):
+    def setAge(self, age):' '
         self.age = age
 
     def dead_status_update(self, updating):
@@ -42,5 +42,3 @@ class Deceased:
 
     def getAge(self): 
         return self.age 
-
-
