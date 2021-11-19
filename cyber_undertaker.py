@@ -1,20 +1,13 @@
-class undertaker:
+import deceased from deceased
+
+def undertaker(deceased):
 
 
-    def __init__(self, name, age) -> None:
-        self.name = name
-        self.age = age
-        self.id = id
+    def bury():
+        pass
 
-    def setNome(self, nome):
-        self.nome = nome
+    def exhume():
+        pass
 
-    def setAge(self, age):
-        self.age = age
-        
+    def 
     
-    def getNome(self):
-        return self.nome
-
-    def getAge(self): 
-        return self.age 
