@@ -2,7 +2,7 @@ import datetime
 class Deceased:
 
 
-    def __init__(self, name, age , buried = None ) -> None:
+    def __init__(self, name, age , buried = bool ) -> None:
 
         self.name = name
 #        self.father_name = father_name

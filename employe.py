@@ -9,8 +9,8 @@ class Employe:
     def setNome(self, nome):
         self.nome = nome
 
-    def setAge(self, age):
-        self.age = age
+    def setId(self, id):
+        self.id = id
         
     
     def getNome(self):

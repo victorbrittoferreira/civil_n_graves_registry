@@ -7,11 +7,11 @@ class undertaker:
     #print(deceased_test.name)
 
     def bury(self):
-        deceased_test.buried = "yes"
+        deceased_test.buried = False
         return deceased_test.buried
 
     def exhume_checkout_cemitery():
-        pass
+        deceased_test.exhume = False
 
     def exhume_to_numbered_ossuary():
 
@@ -19,10 +19,10 @@ class undertaker:
     def exhume_to_general_ossuary():
         pass
 
-    def judicial_exhumation():
+    def judicial_exhume():
         pass
 
-    def administrative_exhumation():
+    def administrative_exhume():
         pass
 
 #print(undertaker.bury("yes"))
