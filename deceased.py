@@ -4,22 +4,7 @@ class Deceased:
 
     def __init__(self, name, age , buried = bool ) -> None:
 
-        self.name = name
-#        self.father_name = father_name
-#        self.mother_name = mother_name
-
-        self.age = age
-#        self.birth_date = birth_date
-#        self.place_of_birth = place_of_birth 
-
-#        self.death_date = death_date
-#        self.place_of_death = place_of_death
-#        self.cause_of_death = cause_of_death 
-#        self.burial_date = burial_date
         self.buried = buried
-        self.date_of_cemetery_registration = datetime.datetime.today()
-
-#        self.registry_office = registry_office
         self.dead_status = []
 
     def setNome(self, nome):
