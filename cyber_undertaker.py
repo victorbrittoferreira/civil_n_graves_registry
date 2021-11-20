@@ -2,7 +2,7 @@ from deceased import Deceased
 
 deceased_test = Deceased("victor",30)
 
-class undertaker:
+class Undertaker:
 
     #print(deceased_test.name)
 
