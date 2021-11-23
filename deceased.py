@@ -1,6 +1,8 @@
 import datetime
 
 from obituary import Obituary
+
+
 class Deceased:
 
 
@@ -25,6 +27,6 @@ class Deceased:
 #    def getAge(self): 
 #        return self.age 
 
-#deceased_test = Deceased("victor",30)
+#deceased_test = Deceased(obituary, True)
 
 #print(deceased_test.buried)
