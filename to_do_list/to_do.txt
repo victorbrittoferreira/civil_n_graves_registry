@@ -2,10 +2,12 @@
 24/12/2021
 
 to do 
-    ->  criar folder data base - 2 arquivos json, cada um relacionado a uma tabela - 
+
+    -> botar typerhints
+    -> SQL Alchemy (checar)
 
 done 
-
+    ->  criar folder data base - 2 arquivos json, cada um relacionado a uma tabela
 
 ------------------------------------------------------------------------------
 
