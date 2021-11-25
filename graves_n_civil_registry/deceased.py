@@ -3,10 +3,11 @@ import datetime
 from obituary import Obituary
 
 
+
 class Deceased:
 
 
-    def __init__(self , obituary, buried = bool ) -> None:
+    def __init__(self , obituary, buried : bool ) -> None:
         self.obituary = obituary
         self.buried = buried
         self.dead_status = []

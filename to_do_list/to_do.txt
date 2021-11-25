@@ -2,7 +2,7 @@
 24/12/2021
 
 to do 
-    ->  criar folder data base - 4 arquivos json, cada um relacionado a uma tabela - 
+    ->  criar folder data base - 2 arquivos json, cada um relacionado a uma tabela - 
 
 done 
 

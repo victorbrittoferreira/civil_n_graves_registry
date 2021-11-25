@@ -1,12 +1,19 @@
 import datetime
 
 class Obituary:
+    #>>>>>>>>>>>trabalhar os typehints
+    #>>>>>>>>>> SQL Alchemy
+    #Geek university
 
-    date_of_cemetery_registration = datetime.datetime.today()
-    #def __init__(self, name, father_name, mother_name, marital_status, spouse_name, sons_name, declarator_of_death_name, doctor_name, age, birth_date, marital_date, death_date, death_time, burial_date, burial_time, place_of_birth, place_of_marital, place_of_death, place_of_burial, birth_registry_office, marital_registry_office, death_registry_office, cause_of_death, date_of_cemetery_registration ) -> None:
-    def __init__(self, name, age,  cause_of_death, date_of_cemetery_registration = date_of_cemetery_registration) -> None:
+    # será instanciada depois
+    #date_of_cemetery_registration = datetime.datetime.today()
+
+    #def __init__(self, id,  name, father_name, mother_name, marital_status, spouse_name, sons_name, declarator_of_death_name, doctor_name, age, birth_date, marital_date, death_date, death_time, burial_date, burial_time, place_of_birth, place_of_marital, place_of_death, place_of_burial, birth_registry_office, marital_registry_office, death_registry_office, cause_of_death, date_of_cemetery_registration ) -> None:
+    def __init__(self, id, name, age,  cause_of_death ) -> None:
 
 
+        self.id = id
+        
         # NAMES
         self.name = name
 #        self.father_name = father_name
@@ -39,7 +46,7 @@ class Obituary:
 #
         self.cause_of_death = cause_of_death 
         
-        self.date_of_cemetery_registration = date_of_cemetery_registration
+        self.date_of_cemetery_registration = datetime.datetime.today()
         #self.date_of_cemetery_registration = date_of_cemetery_registration
 
-#obituary = Obituary("victor", 30 , "Covid-19, SRAG, IRA")
+obituary = Obituary("victor", 30 , "Covid-19, SRAG, IRA")
