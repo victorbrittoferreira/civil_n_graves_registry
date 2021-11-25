@@ -1,7 +1,7 @@
 {
     "obituarys": [
         {
-    "id" : 0
+    "id" : 0,
     "name": "name",
     "father_name": "father_name",
     "mother_name": "mother_name",
@@ -25,7 +25,7 @@
     "marital_registry_office": "marital_registry_office",
     "death_registry_office": "death_registry_office",
     "cause_of_death": "cause_of_death",
-    "date_of_cemetery_registration": 0,
+    "date_of_cemetery_registration": 0
         }
     ]
 }
