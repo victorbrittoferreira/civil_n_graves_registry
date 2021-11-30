@@ -1,10 +1,10 @@
 class Employe:
 
 
-    def __init__(self, name, id) -> None:
+    def __init__(self, id, name) -> None:
+        self.id = id
         self.name = name
         self.age = age
-        self.id = id
 
     def setNome(self, nome):
         self.nome = nome
