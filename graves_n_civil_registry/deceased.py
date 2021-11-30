@@ -2,8 +2,6 @@ import datetime
 
 from obituary import Obituary
 
-
-
 class Deceased:
 
 
